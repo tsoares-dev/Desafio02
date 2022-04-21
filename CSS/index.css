@@ -115,10 +115,10 @@ table{
    } 
 
 .botaodl {
-    background: -webkit-linear-gradient(bottom, #fd7e14, #F9F9F9 70%);
-    background: -moz-linear-gradient(bottom, #fd7e14, #F9F9F9 70%);
-    background: -o-linear-gradient(bottom, #fd7e14, #F9F9F9 70%);
-    background: -ms-linear-gradient(bottom, #fd7e14, #F9F9F9 70%);
+    background: -webkit-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -moz-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, red, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, red, #F9F9F9 70%);
     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     border: 1px solid #CCCCCE;
     border-radius: 3px;
@@ -163,3 +163,13 @@ table{
     top: 0px;
     position: absolute;
    }
+   .navbar {
+    overflow: hidden;
+    background-color: red;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  .table{
+      align-items: center;
+  }
